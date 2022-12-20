@@ -49,7 +49,7 @@ def upload_file():
     print("CHECK LASTES FILe",latest_file) 
 
     img_2=Image.open(latest_file) # read the image file
-    img_2=img_2.resize((300,300)) # new width & height
+    img_2=img_2.resize((600,600)) # new width & height
     img_2=ImageTk.PhotoImage(img_2)
     e2 =tk.Label(my_w)
     e2.grid(row=10,column=1)
