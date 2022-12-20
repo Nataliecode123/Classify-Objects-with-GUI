@@ -11,7 +11,7 @@ my_w = tk.Tk()
 my_w.geometry("500x500")  # Size of the window 
 my_w.title('Classify Objects')
 my_font1=('times', 18, 'bold')
-l1 = tk.Label(my_w,text='Upload a file to classfy',width=30,font=my_font1)  
+l1 = tk.Label(my_w,text='Upload a file to classify',width=30,font=my_font1)  
 l1.grid(row=1,column=1,columnspan=4)
 b1 = tk.Button(my_w, text='Upload Files', 
    width=20,command = lambda:upload_file())
